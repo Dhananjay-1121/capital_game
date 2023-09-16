@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className=" flex justify-center">
       <div className="flex gap-60  ">
-      <div className="z-20">
+      <div className="z-20 ">
         <Image src="/logo.png" width={120} height={75} />
       </div>
         <div className="flex z-30">
@@ -36,9 +36,9 @@ const Nav = () => {
             <button className="navItem">Timeline</button>
             <button className="navItem">Blog</button> */}
         </div>
-        <div className="z-40">
-        <button className="rounded-lg bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
- "> PLAY NOW</button>
+        <div className="z-40 -mt-1">
+        <button className=" py-2 px-8 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
+ "> <span className="button-text-shadow ">PLAY NOW</span></button>
         </div>
       </div>
     </div>
