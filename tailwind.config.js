@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'navBtn-gradient': 'var(--new-button, linear-gradient(180deg, #FAF51C 1.27%, #F67408 100%))',
+      },
       colors: {
         gray: {
           "100": "#8d8d8d",

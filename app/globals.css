@@ -15,5 +15,5 @@ body {
 }
 
 .navItem{
-  @apply text-[16px] bg-transparent h-fit w-fit my-auto font-bold leading-normal font-poppins text-[#B6F6FF] hover:text-yellow-300;
+  @apply text-[16px] cursor-pointer bg-transparent h-fit w-fit my-auto font-bold leading-normal font-poppins text-[#B6F6FF] hover:text-yellow-300;
 }

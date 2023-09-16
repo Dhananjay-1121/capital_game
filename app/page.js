@@ -3,14 +3,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col bg-gray-300 w-full text-31xl font-poppins">
+    <div className="flex flex-col bg-gray-300 w-full h-screen text-31xl font-poppins">
       <Image src="/bg@2x.png" fill />
-      <div className="flex justify-center">
-      <Nav />
+      <div className="flex  justify-center">
+        <Nav />
       </div>
-      
-      
-      
+
       {/* <div className=" mx-24 flex">
         <div className="flex gap-60 text-center mx-auto">
           <Image src="/logo.png" width={110} height={70} />
@@ -23,11 +21,12 @@ export default function Home() {
           <button className=" text-4xl"> PLAY NOW</button>
         </div>
       </div> */}
-      
-      
+
       <div className="flex justify-center text-center mt-48 ">
         <div>
-          <h2 className=" leading-tight text-white z-20">LEARN HOW TO GROW YOUT MONEY WITH CAPITAL RUSH</h2>
+          <h2 className=" leading-tight text-white z-20">
+            LEARN HOW TO GROW YOUT MONEY WITH CAPITAL RUSH
+          </h2>
         </div>
       </div>
     </div>
