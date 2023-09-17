@@ -11,8 +11,8 @@ const CarousalElem = () => {
     <div className="carousel-container  flex-col items-center">
       <div className="py-10 flex gap-20 items-center">
         <div className="carousel-buttons z-30">
-          <button className="carousel-button cursor-pointer carousel-button-prev">
-            Left
+          <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
+            <Image src="/svg/leftArrow.svg" height={100} width={100} />
           </button>
         </div>
         <Swiper
@@ -22,7 +22,7 @@ const CarousalElem = () => {
           }}
           pagination={{
             el: ".swiper-pagination",
-            clickable: true,
+            // clickable: true,
           }}
           // pagination={true}
           mousewheel={true}
@@ -36,49 +36,49 @@ const CarousalElem = () => {
           <div className="">
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className=" scale-y-75 group-hover:brightness-125"
                 src="/a1.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a3.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a4.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a2.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a1.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a3.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
-                className="h-10 group-hover:brightness-125"
+                className="scale-y-75 group-hover:brightness-125"
                 src="/a4.png"
                 fill
               />
@@ -86,12 +86,12 @@ const CarousalElem = () => {
           </div>
         </Swiper>
         <div className="carousel-buttons z-30">
-          <button className="carousel-button cursor-pointer carousel-button-next">
-            Right
+          <button className="carousel-button hzoom1 cursor-pointer carousel-button-next">
+            <Image src="/svg/rightArrow.svg" height={100} width={100} />
           </button>
         </div>
       </div>
-      <div className="text-center">
+      <div className="z-40 text-center">
         <div className="swiper-pagination"></div>
       </div>
     </div>
