@@ -108,3 +108,7 @@
     transform: translate3d(0, 0, 0);
     z-index: 10;
 }
+/* 
+.carousel-container{
+    margin: auto;
+} */

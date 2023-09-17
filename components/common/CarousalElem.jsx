@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const CarousalElem = () => {
   return (
-    <div className="carousel-container relative  flex-col items-center">
-      <div className="py-10 flex gap-20 items-center ">
+    <div className="carousel-container relative  flex-col ">
+      <div className="py-10 flex xl:gap-20 gap-8  -mx-10 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
             <Image src="/svg/leftArrow.svg" height={100} width={100} />
