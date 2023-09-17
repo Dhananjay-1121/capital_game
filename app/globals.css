@@ -27,4 +27,17 @@ body {
 
 .sec1-bg {
   background-image: url('/bg@2x.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.sec1-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  mix-blend-mode:overlay; /* Apply the blend mode to only the background image */
 }
