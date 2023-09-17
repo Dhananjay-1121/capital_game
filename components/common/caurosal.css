@@ -96,8 +96,21 @@
     background-color: #0056b3; /* Hover background color */
   }
   
-  .swiper-pagination {
-    margin-top: 50px; /* Adjust the margin value as needed */
+  /* In your caurosal.css file or inline style */
+.swiper-pagination-bullet {
+    background-color: white; /* Set the background color to white */
+    opacity: 0.7; /* Adjust opacity as needed */
+    width: 8px; /* Adjust width as needed */
+    height: 8px; /* Adjust height as needed */
+    margin: 0 5px; /* Adjust margin as needed */
+    border-radius: 50%; /* Create rounded pagination buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    
+  }
+  
+  /* Style the active pagination button */
+  .swiper-pagination-bullet-active {
+    opacity: 1; /* Set full opacity for active button */
   }
 
 /* #app { height: 100% }
