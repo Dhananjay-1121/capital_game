@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,10 +8,9 @@ export default function Home() {
       <div>
         {/* <Image src="/bg@2x.png" fill  className=" opacity-60 "/> */}
       </div>
-      <div className="sec1-bg bg-cover bg-center h-screen">
+      <section className="sec1-bg bg-cover bg-center h-screen">
         <div className="flex  justify-center ">
           <Nav />
-          {/* <Image src="/bg@2x.png" layout="fill" objectFit="cover" alt="" /> */}
         </div>
 
         <div className=" text-center mt-48 ">
@@ -25,9 +25,50 @@ export default function Home() {
             <p className=" text-white font-quicksand text-[30px]">
               Experience financial markets like never before
             </p>
+            <div className="flex justify-center mt-14">
+              <div className=" cursor-pointer flex items-center justify-center ">
+                <Link href="/">
+                  <Image
+                    src="/svg/apple.svg"
+                    alt="SVG Image"
+                    width={300}
+                    height={300}
+                    layout="intrinsic"
+                    objectFit="cover"
+                    className="transform hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+              </div>
+              <div className=" cursor-pointer flex items-center justify-center ">
+                <Link href="/">
+                  <Image
+                    src="/svg/apple.svg"
+                    alt="SVG Image"
+                    width={300}
+                    height={300}
+                    layout="intrinsic"
+                    objectFit="cover"
+                    className="transform hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+              </div>
+              <div className=" cursor-pointer flex items-center justify-center ">
+                <Link href="/">
+                  <Image
+                    src="/svg/apple.svg"
+                    alt="SVG Image"
+                    width={300}
+                    height={300}
+                    layout="intrinsic"
+                    objectFit="cover"
+                    className="transform hover:scale-105 transition-transform duration-300"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
