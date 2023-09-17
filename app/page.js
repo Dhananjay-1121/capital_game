@@ -1,4 +1,4 @@
-import Nav from "@/components/Nav";
+import Nav from "@/components/common/Nav";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ export default function Home() {
           <Nav />
         </div>
 
-        <div className=" text-center mt-48 ">
+        <div className=" text-center mt-32 ">
           <div className="">
             <h2 className="  mx-28 leading-tight text-white text-[60px] ">
               LEARN HOW TO
@@ -25,43 +25,43 @@ export default function Home() {
             <p className=" text-white font-quicksand text-[30px]">
               Experience financial markets like never before
             </p>
-            <div className="flex justify-center mt-14">
+            <div className="flex justify-center mt-12 gap-6">
               <div className=" cursor-pointer flex items-center justify-center ">
                 <Link href="/">
                   <Image
                     src="/svg/apple.svg"
                     alt="SVG Image"
-                    width={300}
+                    width={350}
                     height={300}
                     layout="intrinsic"
                     objectFit="cover"
-                    className="transform hover:scale-105 transition-transform duration-300"
+                    className="mt-6 transform hover:scale-105 transition-transform duration-300"
                   />
                 </Link>
               </div>
-              <div className=" cursor-pointer flex items-center justify-center ">
+              <div className="border-1 border-white cursor-pointer flex items-center justify-center ">
                 <Link href="/">
                   <Image
-                    src="/svg/apple.svg"
+                    src="/svg/android.svg"
                     alt="SVG Image"
-                    width={300}
-                    height={300}
+                    width={280}
+                    height={280}
                     layout="intrinsic"
                     objectFit="cover"
-                    className="transform hover:scale-105 transition-transform duration-300"
+                    className="  transform hover:scale-105 transition-transform duration-300"
                   />
                 </Link>
               </div>
-              <div className=" cursor-pointer flex items-center justify-center ">
+              <div className="ml-8  cursor-pointer flex items-center justify-center ">
                 <Link href="/">
                   <Image
-                    src="/svg/apple.svg"
+                    src="/svg/watchvd.svg"
                     alt="SVG Image"
                     width={300}
                     height={300}
                     layout="intrinsic"
                     objectFit="cover"
-                    className="transform hover:scale-105 transition-transform duration-300"
+                    className=" transform hover:scale-105 transition-transform duration-300"
                   />
                 </Link>
               </div>
