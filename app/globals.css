@@ -53,3 +53,20 @@ body {
   background-color: #100B26;
   background-image: url("/bg/beige-paper.png");
 }
+
+#line-between {
+  position: absolute;
+  content: "";
+  width: 2px; /* Width of the line */
+  height: calc(100% + 400px); /* Adjust the height of the line to cover both divs and spacing */
+  top: -200px; /* Adjust the vertical position */
+  left: calc(50% - 1px); /* Adjust the horizontal position */
+  background: white; /* Color of the line */
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 2px,
+    white 2px,
+    white 4px /* Adjust the spacing between dots */
+  );
+  z-index: -1; /* Make sure the line is behind the content */
+}

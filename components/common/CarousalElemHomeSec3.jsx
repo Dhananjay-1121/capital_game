@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/bundle"; // Import Swiper styles
+import "swiper/css/bundle"; 
 import "./caurosal.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Image from "next/image";
 
 const CarousalElemHomeSec3 = () => {
   return (
-    <div className="carousel-container relative  flex-col ">
+    <div className="carousel-container flex-col ">
       <div className="py-10 flex xl:gap-20 gap-8  -mx-10 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
@@ -91,9 +91,9 @@ const CarousalElemHomeSec3 = () => {
           </button>
         </div>
       </div>
-      <div className="z-40 text-center ">
+      {/* <div className="z-40 text-center ">
         <div className="swiper-pagination"></div>
-      </div>
+      </div> */}
     </div>
   );
 };
