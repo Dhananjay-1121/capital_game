@@ -5,23 +5,26 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-gray-400 w-full h-full  text-31xl font-poppins">
       <div>
-      <Image src="/bg@2x.png" fill  className=" opacity-60 "/>
+        {/* <Image src="/bg@2x.png" fill  className=" opacity-60 "/> */}
       </div>
-      <div>
+      <div className="sec1-bg bg-cover bg-center h-screen">
         <div className="flex  justify-center ">
           <Nav />
-      {/* <Image src="/bg@2x.png" layout="fill" objectFit="cover" alt="" /> */}
+          {/* <Image src="/bg@2x.png" layout="fill" objectFit="cover" alt="" /> */}
         </div>
-
-        
 
         <div className=" text-center mt-48 ">
           <div className="">
             <h2 className="  mx-28 leading-tight text-white text-[60px] ">
-            LEARN HOW TO
-              <span className=" text-yellow-400 text-stroke text-stroke-white"> GROW YOUT MONEY WITH CAPITAL RUSH</span>
+              LEARN HOW TO
+              <span className=" text-yellow-400 text-stroke text-stroke-white">
+                {" "}
+                GROW YOUT MONEY WITH CAPITAL RUSH
+              </span>
             </h2>
-            <p className=" text-white font-quicksand text-[30px]" >Experience financial markets like never before</p>
+            <p className=" text-white font-quicksand text-[30px]">
+              Experience financial markets like never before
+            </p>
           </div>
         </div>
       </div>
