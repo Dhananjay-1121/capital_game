@@ -4,7 +4,7 @@ import CarousalElem from "../common/CarousalElem";
 const Home2 = () => {
   return (
     <section className="home-sec2">
-      <div className="py-24">
+      <div className="py-32">
         <div className=" text-center">
           <h2 className="  mx-28 leading-tight text-white text-[50px] ">
             WHY
@@ -18,7 +18,7 @@ const Home2 = () => {
             education <br /> and fun, perfect for gamers and investment novices
           </p>
         </div>
-        <div className=" mt-24 mx-32">
+        <div className=" mt-12 mx-32">
             <CarousalElem />
         </div>
       </div>

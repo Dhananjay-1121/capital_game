@@ -3,7 +3,7 @@ import Home2 from "@/components/home/Home2";
 
 export default function Home() {
   return (
-    <div className="flex flex-col bg-[#100B26] w-full h-full  text-31xl font-poppins">
+    <div className="flex flex-col bg-[#100B26] w-full   text-31xl font-poppins">
     <Home1 />
     <Home2 />
 

@@ -4,12 +4,12 @@ import Nav from "../common/Nav";
 
 const Home1 = () => {
   return (
-    <section className="sec1-bg bg-cover bg-center h-screen">
+    <section className="sec1-bg bg-cover bg-center h-screen ">
       <div className="flex  justify-center ">
         <Nav />
       </div>
 
-      <div className=" text-center mt-20 ">
+      <div className=" text-center mt-20 mb-20">
         <div className="">
           <h2 className="  mx-28 leading-tight text-white text-[60px] ">
             LEARN HOW TO
