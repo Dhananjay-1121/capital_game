@@ -22,7 +22,7 @@ const CarousalElem = () => {
           }}
           pagination={{
             el: ".swiper-pagination",
-            // clickable: true,
+            clickable: true,
           }}
           // pagination={true}
           mousewheel={true}

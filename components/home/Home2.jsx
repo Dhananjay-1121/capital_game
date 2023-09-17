@@ -18,8 +18,15 @@ const Home2 = () => {
             education <br /> and fun, perfect for gamers and investment novices
           </p>
         </div>
-        <div className=" mt-12 mx-32">
+        <div className=" mt-12 xl:mx-32 mx-16">
             <CarousalElem />
+            <div className="z-40 text-center ">
+          <button
+            className="transform hover:scale-105 transition-transform duration-300 py-3 px-10 rounded-l-3xl rounded-r-3xl bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;">
+            {" "}
+            <span className="button-text-shadow ">PLAY NOW</span>
+          </button>
+        </div>
         </div>
       </div>
     </section>
