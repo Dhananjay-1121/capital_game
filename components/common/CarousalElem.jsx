@@ -8,10 +8,9 @@
     
     const CarousalElem = () => {
       return (
-        <div className="carousel-container">
+        <div className="carousel-container py-10 flex gap-20 items-center">
           <div className="carousel-buttons z-30">
             <button className="carousel-button cursor-pointer carousel-button-prev">Left</button>
-            <button className="carousel-button cursor-pointer carousel-button-next">Right</button>
           </div>
           <Swiper
             navigation={{
@@ -22,30 +21,39 @@
             mousewheel={true}
             keyboard={true}
             slidesPerView={4}
+            spaceBetween={30}
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+            // loop={true}
             className="mySwiper"
           >
-            <div className="px-12">
-              <SwiperSlide>
-                <Image src="/a2.png" fill />
+            <div className="">
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a1.png" fill />
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/a1.png" fill />
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a3.png" fill />
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/a3.png" fill />
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a4.png" fill />
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/a4.png" fill />
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a2.png" fill />
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/a1.png" fill />
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a1.png" fill />
               </SwiperSlide>
-              <SwiperSlide>
-                <Image src="/a2.png" fill />
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a3.png" fill />
               </SwiperSlide>
+              <SwiperSlide className="group">
+                <Image className="h-10 group-hover:brightness-125" src="/a4.png" fill />
+              </SwiperSlide>
+              
             </div>
           </Swiper>
+          <div className="carousel-buttons z-30">
+            <button className="carousel-button cursor-pointer carousel-button-next">Right</button>
+          </div>
         </div>
       );
     };

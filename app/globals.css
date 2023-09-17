@@ -18,6 +18,9 @@ body {
   @apply text-[16px] cursor-pointer bg-transparent h-fit w-fit my-auto font-bold leading-normal font-poppins text-[#B6F6FF] hover:text-yellow-300;
 }
 
+.hzoom1{
+  @apply transform hover:scale-105 transition-transform duration-300;
+}
 
 .button-text-shadow {
   text-shadow: 0px 2.6647257804870605px 5.329451560974121px rgba(0, 0, 0, 0.20),

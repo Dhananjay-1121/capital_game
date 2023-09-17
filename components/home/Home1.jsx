@@ -31,7 +31,7 @@ const Home1 = () => {
                   height={300}
                   layout="intrinsic"
                   objectFit="cover"
-                  className="mt-6 transform hover:scale-105 transition-transform duration-300"
+                  className="mt-6 hzoom1"
                 />
               </Link>
             </div>
@@ -44,7 +44,7 @@ const Home1 = () => {
                   height={280}
                   layout="intrinsic"
                   objectFit="cover"
-                  className="  transform hover:scale-105 transition-transform duration-300"
+                  className="  hzoom1"
                 />
               </Link>
             </div>
@@ -57,7 +57,7 @@ const Home1 = () => {
                   height={300}
                   layout="intrinsic"
                   objectFit="cover"
-                  className=" transform hover:scale-105 transition-transform duration-300"
+                  className="hzoom1"
                 />
               </Link>
             </div>
