@@ -1,74 +1,12 @@
-import Nav from "@/components/common/Nav";
-import Image from "next/image";
-import Link from "next/link";
+import Home1 from "@/components/home/Home1";
+import Home2 from "@/components/home/Home2";
 
 export default function Home() {
   return (
-    <div className="flex flex-col bg-gray-400 w-full h-full  text-31xl font-poppins">
-      <div>
-        {/* <Image src="/bg@2x.png" fill  className=" opacity-60 "/> */}
-      </div>
-      <section className="sec1-bg bg-cover bg-center h-screen">
-        <div className="flex  justify-center ">
-          <Nav />
-        </div>
+    <div className="flex flex-col bg-[#100B26] w-full h-full  text-31xl font-poppins">
+    <Home1 />
+    <Home2 />
 
-        <div className=" text-center mt-32 ">
-          <div className="">
-            <h2 className="  mx-28 leading-tight text-white text-[60px] ">
-              LEARN HOW TO
-              <span className=" text-yellow-400 text-stroke text-stroke-white">
-                {" "}
-                GROW YOUT MONEY WITH CAPITAL RUSH
-              </span>
-            </h2>
-            <p className=" text-white font-quicksand text-[30px]">
-              Experience financial markets like never before
-            </p>
-            <div className="flex justify-center mt-12 gap-6">
-              <div className=" cursor-pointer flex items-center justify-center ">
-                <Link href="/">
-                  <Image
-                    src="/svg/apple.svg"
-                    alt="SVG Image"
-                    width={350}
-                    height={300}
-                    layout="intrinsic"
-                    objectFit="cover"
-                    className="mt-6 transform hover:scale-105 transition-transform duration-300"
-                  />
-                </Link>
-              </div>
-              <div className="border-1 border-white cursor-pointer flex items-center justify-center ">
-                <Link href="/">
-                  <Image
-                    src="/svg/android.svg"
-                    alt="SVG Image"
-                    width={280}
-                    height={280}
-                    layout="intrinsic"
-                    objectFit="cover"
-                    className="  transform hover:scale-105 transition-transform duration-300"
-                  />
-                </Link>
-              </div>
-              <div className="ml-8  cursor-pointer flex items-center justify-center ">
-                <Link href="/">
-                  <Image
-                    src="/svg/watchvd.svg"
-                    alt="SVG Image"
-                    width={300}
-                    height={300}
-                    layout="intrinsic"
-                    objectFit="cover"
-                    className=" transform hover:scale-105 transition-transform duration-300"
-                  />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

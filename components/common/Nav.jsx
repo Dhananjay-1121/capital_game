@@ -6,7 +6,7 @@ const Nav = () => {
     <div className=" flex justify-center">
       <div className="flex xl:gap-60 gap-24 ">
       <div className="z-20 ">
-        <Image src="/logo.png" width={160} height={80} />
+        <Image src="/logo.png" className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl cursor-pointer" width={160} height={80} />
       </div>
         <div className="flex z-30">
           <ul className="list-none -mt-0 xl:gap-14 gap-8 flex">
