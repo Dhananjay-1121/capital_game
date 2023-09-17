@@ -15,7 +15,7 @@ const Home1 = () => {
             LEARN HOW TO
             <span className=" text-yellow-300 text-stroke text-stroke-white">
               {" "}
-              GROW YOUT MONEY WITH CAPITAL RUSH
+              GROW YOUR MONEY WITH CAPITAL RUSH
             </span>
           </h2>
           <p className=" text-white font-quicksand text-[30px]">

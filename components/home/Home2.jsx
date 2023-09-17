@@ -4,7 +4,7 @@ import CarousalElem from "../common/CarousalElem";
 const Home2 = () => {
   return (
     <section className="home-sec2">
-      <div className="py-32">
+      <div className=" py-24">
         <div className=" text-center">
           <h2 className="  mx-28 leading-tight text-white text-[50px] ">
             WHY
