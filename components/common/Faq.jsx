@@ -4,7 +4,7 @@ import { FiChevronDown } from "react-icons/fi";
 import "./faq.css"
 
 
-export default function Faq() {
+export default function Faq({question,answer}) {
   const [active, setActive] = useState(false);
 
   const contentRef = useRef(null);
@@ -29,7 +29,7 @@ export default function Faq() {
             <div>
               <div className="question-align">
                 <h4 className="question-style">
-                  Why do you like web developemnt
+                  {question}
                 </h4>
                 <FiChevronDown
                   className={active ? `question-icon rotate` : `question-icon`}
@@ -37,9 +37,9 @@ export default function Faq() {
               </div>
               <div
                 ref={contentRef}
-                className={active ? `answer answer-divider` : `answer`}
+                className={active ? `answer answer-divider` : `answer `}
               >
-                <p>Because I love coding</p>
+                <p>{answer}</p>
               </div>
             </div>
           </button>
