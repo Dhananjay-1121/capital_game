@@ -12,7 +12,7 @@ const CarousalElem = () => {
       <div className="py-10 flex xl:gap-20 gap-8  -mx-10 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
-            <Image src="/svg/leftArrow.svg" height={100} width={100} />
+            <Image alt="left-arrow" src="/svg/leftArrow.svg" height={100} width={100} />
           </button>
         </div>
         <Swiper
@@ -35,49 +35,49 @@ const CarousalElem = () => {
         >
           <div className="">
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className=" scale-y-75 group-hover:brightness-125"
                 src="/a1.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a3.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a4.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a2.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a1.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a3.png"
                 fill
               />
             </SwiperSlide>
             <SwiperSlide className="group">
-              <Image
+              <Image alt="carosal-Images"
                 className="scale-y-75 group-hover:brightness-125"
                 src="/a4.png"
                 fill
@@ -87,7 +87,7 @@ const CarousalElem = () => {
         </Swiper>
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-next">
-            <Image src="/svg/rightArrow.svg" height={100} width={100} />
+            <Image alt="carosal-Images" src="/svg/rightArrow.svg" height={100} width={100} />
           </button>
         </div>
       </div>

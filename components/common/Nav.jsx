@@ -7,6 +7,7 @@ const Nav = () => {
       <div className="flex xl:gap-60 gap-24 ">
         <div className="z-20 ">
           <Image
+          alt="logo"
             src="/logo.png"
             className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl cursor-pointer"
             width={200}

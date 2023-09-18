@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/bundle"; 
+import "swiper/css/bundle";
 import "./caurosal.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Image from "next/image";
@@ -12,7 +12,12 @@ const CarousalElemHomeSec3 = () => {
       <div className="py-10 flex xl:gap-20 gap-8  -mx-10 items-center ">
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-prev">
-            <Image src="/svg/leftArrow.svg" height={100} width={100} />
+            <Image
+              alt="left-arrow"
+              src="/svg/leftArrow.svg"
+              height={100}
+              width={100}
+            />
           </button>
         </div>
         <Swiper
@@ -36,6 +41,7 @@ const CarousalElemHomeSec3 = () => {
           <div className="">
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className="  group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -43,6 +49,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -50,6 +57,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -57,6 +65,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -64,6 +73,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -71,6 +81,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -78,6 +89,7 @@ const CarousalElemHomeSec3 = () => {
             </SwiperSlide>
             <SwiperSlide className="group">
               <Image
+                alt="Carosal-home-Images"
                 className=" group-hover:brightness-125"
                 src="/mobile.png"
                 fill
@@ -87,7 +99,12 @@ const CarousalElemHomeSec3 = () => {
         </Swiper>
         <div className="carousel-buttons z-30">
           <button className="carousel-button hzoom1 cursor-pointer carousel-button-next">
-            <Image src="/svg/rightArrow.svg" height={100} width={100} />
+            <Image
+              alt="right-arrow"
+              src="/svg/rightArrow.svg"
+              height={100}
+              width={100}
+            />
           </button>
         </div>
       </div>

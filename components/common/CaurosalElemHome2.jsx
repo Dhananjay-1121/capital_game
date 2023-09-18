@@ -89,7 +89,7 @@ const CaurosalElemHome2 = () => {
           <div className="">
             <div className="">
               <div className="group h-[600px] w-[380px]">
-                <Image
+                <Image alt="carosal-Home-sectionImage"
                   className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
                   src="/boy.png"
                   height={600}
@@ -131,7 +131,7 @@ const CaurosalElemHome2 = () => {
           <div className="">
             <div className="">
               <div className="group h-[600px] w-[380px]">
-                <Image
+                <Image alt="carosal-Home-sectionImage"
                   className=" relative bottom-[80px] right-[25px] group-hover:brightness-125"
                   src="/boy.png"
                   height={600}
