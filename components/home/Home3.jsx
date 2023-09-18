@@ -4,13 +4,38 @@ import Image from "next/image";
 import CaurosalElemHome2 from "../common/CaurosalElemHome2";
 import Faq from "../common/Faq";
 
-const faqs=[{question:"Do I need to pay for it?",answer:"No, You don’t need to pay for it. You can play infinite times without even paying a single penny unless you want to either purchase in-game currencies or get more value by getting Capital Rush’s Pro Subscription.. which would give you an in-depth analysis and feedback on your investing strategies and how you can grow your money even more."},
-{question:"Is this a kind of gambling ?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
-{question:"How is Capital Rush different ?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
-{question:"What kind of investment categories do you have ?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
-{question:"I don’t have knowledge about Market, Can I pay it ?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
-{question:"How does it work ?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-]
+const faqs = [
+  {
+    question: "Do I need to pay for it?",
+    answer:
+      "No, You don’t need to pay for it. You can play infinite times without even paying a single penny unless you want to either purchase in-game currencies or get more value by getting Capital Rush’s Pro Subscription.. which would give you an in-depth analysis and feedback on your investing strategies and how you can grow your money even more.",
+  },
+  {
+    question: "Is this a kind of gambling ?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    question: "How is Capital Rush different ?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    question: "What kind of investment categories do you have ?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    question: "I don’t have knowledge about Market, Can I pay it ?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    question: "How does it work ?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];
 
 const Home3 = () => {
   return (
@@ -30,7 +55,7 @@ const Home3 = () => {
           <CarousalElemHomeSec3 />
         </div>
         <div>
-        {/* line connections */}
+          {/* line connections */}
           <div className="flex-col mt-20">
             <div className="flex justify-between ">
               <div className=" text-left ml-24" id="one">
@@ -152,19 +177,56 @@ const Home3 = () => {
           </div>
 
           <div className="relative bottom-[200px]">
-              <CaurosalElemHome2 />
+            <CaurosalElemHome2 />
           </div>
-          
+
           {/* Faq's */}
           <div>
-          <div className="py-10 ml-32 mx-auto max-w-screen-xl ">
-      <h1 className="text-white text-[48px] ml-2 font-semibold mb-0">
-        FAQ
-      </h1>
-      {faqs.map((elem,index)=>{
-        return <Faq question={elem.question} answer={elem.answer} key={index}/>
-      })}
-    </div>
+            <div className="py-10 ml-32 mx-auto max-w-screen-xl ">
+              <h1 className="text-white text-[48px] ml-2 font-semibold mb-0">
+                FAQ
+              </h1>
+              {faqs.map((elem, index) => {
+                return (
+                  <Faq
+                    question={elem.question}
+                    answer={elem.answer}
+                    key={index}
+                  />
+                );
+              })}
+            </div>
+          </div>
+          <div className="text-center mt-32">
+            <div className="ml-32">
+              <div className=" relative ml-4 top-[240px] left-[45px] text-left mr-20">
+                <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
+                  Want to learn <br /> Trading with fun
+                </h2>
+                <p className="  w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                  Boost trading skills with Capital Rush – where learning
+                  transforms into an exhilarating game.
+                </p>
+              </div>
+              <div className="rounded-l-xl rounded-r-xl bg-gradient-to-br from-purple-600 via-purple-900 to-indigo-900 w-[88%] h-[445px]"></div>
+              <Image
+                src="/mobile2.png"
+                className=" relative bottom-[480px] ml-[45%]"
+                height={480}
+                width={300}
+              />
+              <div className="z-40 relative bottom-[640px] text-left  ml-16">
+                <button
+                  className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-[400px] rounded-r-[400px] bg-gradient-to-r from-yellow-200 via-yellow-300 to-red-500 cursor-pointer text-[16px]  h-fit w-fit my-auto font-bold leading-normal font-poppins text-white hover:text-yellow-300;
+ "
+                >
+                  {" "}
+                  <span className="button-text-shadow text-[28px]">
+                    JOIN NOW
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import FooterElem from "@/components/common/FooterElem";
 import Home1 from "@/components/home/Home1";
 import Home2 from "@/components/home/Home2";
 import Home3 from "@/components/home/Home3";
@@ -8,6 +9,7 @@ export default function Home() {
     <Home1 />
     <Home2 />
     <Home3 />
+    <FooterElem />
     </div>
   );
 }
