@@ -9,8 +9,8 @@ const Nav = () => {
           <Image
             src="/logo.png"
             className="transform hover:scale-105 transition-transform duration-300 py-2 px-8 rounded-l-3xl rounded-r-3xl cursor-pointer"
-            width={160}
-            height={80}
+            width={200}
+            height={90}
           />
         </div>
         <div className="flex z-30">

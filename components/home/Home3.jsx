@@ -197,14 +197,14 @@ const Home3 = () => {
               })}
             </div>
           </div>
-          <div className="text-center mt-32">
-            <div className="ml-32">
+          <div className="text-center mt-20">
+            <div className="ml-32 h-[800px]">
               <div className=" relative ml-4 top-[240px] left-[45px] text-left mr-20">
                 <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Want to learn <br /> Trading with fun
                 </h2>
                 <p className="  w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
-                  Boost trading skills with Capital Rush – where learning
+                  Boost trading skills with Capital Rush - where learning
                   transforms into an exhilarating game.
                 </p>
               </div>
