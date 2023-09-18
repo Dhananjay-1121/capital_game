@@ -30,9 +30,9 @@ const CaurosalElemHome2 = () => {
               Learn more
             </a>
           </div>
-          <div className="group">
+          <div className="">
             <div className="">
-              <div className="">
+              <div className="group h-[600px] w-[380px]">
                 <Image
                   className=" relative bottom-[250px] right-[75px] group-hover:brightness-125"
                   src="/boy.png"
