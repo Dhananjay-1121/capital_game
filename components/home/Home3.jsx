@@ -2,6 +2,7 @@ import React from "react";
 import CarousalElemHomeSec3 from "../common/CarousalElemHomeSec3";
 import Image from "next/image";
 import CaurosalElemHome2 from "../common/CaurosalElemHome2";
+import Faq from "../common/Faq";
 
 const Home3 = () => {
   return (
@@ -142,8 +143,18 @@ const Home3 = () => {
             </div>
           </div>
 
-          <div className="relative bottom-[100px]">
+          <div className="relative bottom-[200px]">
               <CaurosalElemHome2 />
+          </div>
+          
+          {/* Faq's */}
+          <div>
+          <div className="py-10 px-4 mx-auto max-w-screen-xl ">
+      <h1 className="text-yellow-500 text-3xl font-semibold mb-6">
+        FAQ
+      </h1>
+      <Faq/>
+    </div>
           </div>
         </div>
       </div>

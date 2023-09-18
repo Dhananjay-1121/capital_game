@@ -142,26 +142,6 @@ const CaurosalElemHome2 = () => {
             </div>
           </div>
         </li>
-        {/* <li className="slide">
-        <div className="slide-content">
-          <h2 className="slide-title">Slide #2</h2>
-          <p className="slide-text">Nisi ratione magni ea quis animi incidunt velit voluptate dolorem enim possimus, nam provident excepturi ipsam nihil molestiae minus delectus!</p>
-          <a href="#" className="slide-link">Amazing deal</a>
-        </div>
-        <p className="slide-image">
-          <Image  src="/boy.png" alt="stuff" width="320" height="240" />
-        </p>
-      </li>
-      <li className="slide">
-        <div className="slide-content">
-          <h2 className="slide-title">Slide #2</h2>
-          <p className="slide-text">Nisi ratione magni ea quis animi incidunt velit voluptate dolorem enim possimus, nam provident excepturi ipsam nihil molestiae minus delectus!</p>
-          <a href="#" className="slide-link">Amazing deal</a>
-        </div>
-        <p className="slide-image">
-          <Image  src="/boy.png" alt="stuff" width="320" height="240" />
-        </p>
-      </li> */}
       </ul>
     </div>
   );
