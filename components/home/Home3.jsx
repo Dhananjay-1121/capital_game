@@ -142,7 +142,7 @@ const Home3 = () => {
             </div>
           </div>
 
-          <div className="relative bottom-[00px]">
+          <div className="relative bottom-[100px]">
               <CaurosalElemHome2 />
           </div>
         </div>
