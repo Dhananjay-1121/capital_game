@@ -69,12 +69,12 @@ const Home3 = () => {
               </div>
               <div className=" text-left mr-20">
                 <h2 className=" leading-tight w-[600px]  text-white text-[48px] ">
-                  Sign up & Build your <br /> Capital Empire
+                  Optimise the Capital
                 </h2>
                 <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
-                  Mr Capital will guide you to several amazing adventures
-                  throughout this wonderful journey. You would be able to create
-                  the desired portfolio from your in-hand cash.
+                  Utilize your in-hand capital via investing in various assets
+                  like Equity, Crypto, Commodities, Bonds and Venture Capital
+                  and explore the world of Investing like never before!
                 </p>
               </div>
             </div>
@@ -83,13 +83,12 @@ const Home3 = () => {
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
               <div className=" text-left ml-20">
-                <h2 className=" leading-tight w-[600px]  text-white text-[48px] ">
-                  Sign up & Build your <br /> Capital Empire
+                <h2 className=" leading-tight w-[600px] whitespace-nowrap text-white text-[48px] ">
+                  On Your Mark, Get Set Go!
                 </h2>
                 <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
-                  Mr Capital will guide you to several amazing adventures
-                  throughout this wonderful journey. You would be able to create
-                  the desired portfolio from your in-hand cash.
+                  Roll the dice to move in-time and see your assets compound in
+                  real time. Travel weeks, quarters and years in a flash!
                 </p>
               </div>
               <div className="mr-16 -mt-[200px]">
@@ -129,12 +128,13 @@ const Home3 = () => {
               </div>
               <div className=" text-left mr-20">
                 <h2 className=" leading-tight w-[600px]  text-white text-[48px] ">
-                  Sign up & Build your <br /> Capital Empire
+                  Never a dull moment
                 </h2>
-                <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
-                  Mr Capital will guide you to several amazing adventures
-                  throughout this wonderful journey. You would be able to create
-                  the desired portfolio from your in-hand cash.
+                <p className="  w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
+                  Capital Rush is a fast-paced, high-tempo game that keeps you
+                  on edge. You can choose to battle it out against the AI or can
+                  play with your friends; the possibilities and surprises are
+                  endless over here.
                 </p>
               </div>
             </div>
