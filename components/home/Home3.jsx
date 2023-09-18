@@ -1,13 +1,14 @@
 import React from "react";
 import CarousalElemHomeSec3 from "../common/CarousalElemHomeSec3";
 import Image from "next/image";
+import CaurosalElemHome2 from "../common/CaurosalElemHome2";
 
 const Home3 = () => {
   return (
     <div>
       <div className="py-24">
         <div className=" text-center">
-          <h2 className="  mx-28 leading-tight text-white text-[50px] ">
+          <h2 className="  mx-28 leading-tight mb-8 text-white text-[50px] ">
             HOW IT WORKS?
           </h2>
           <p className=" text-white -mt-5 font-quicksand leading-normal text-[20px]">
@@ -20,10 +21,11 @@ const Home3 = () => {
           <CarousalElemHomeSec3 />
         </div>
         <div>
+        {/* line connections */}
           <div className="flex-col mt-20">
             <div className="flex justify-between ">
               <div className=" text-left ml-24" id="one">
-                <h2 className=" leading-tight w-[600px] h-fit text-white text-[48px] ">
+                <h2 className=" leading-tight w-[600px] mb-8 h-fit text-white text-[48px] ">
                   Sign up & Build your <br /> Capital Empire
                 </h2>
                 <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
@@ -68,7 +70,7 @@ const Home3 = () => {
                 />
               </div>
               <div className=" text-left mr-20">
-                <h2 className=" leading-tight w-[600px]  text-white text-[48px] ">
+                <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Optimise the Capital
                 </h2>
                 <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
@@ -83,7 +85,7 @@ const Home3 = () => {
             </div>
             <div className="flex justify-between -mt-[610px]" id="two">
               <div className=" text-left ml-20">
-                <h2 className=" leading-tight w-[600px] whitespace-nowrap text-white text-[48px] ">
+                <h2 className=" leading-tight w-[600px] mb-8 whitespace-nowrap text-white text-[48px] ">
                   On Your Mark, Get Set Go!
                 </h2>
                 <p className=" w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
@@ -127,7 +129,7 @@ const Home3 = () => {
                 />
               </div>
               <div className=" text-left mr-20">
-                <h2 className=" leading-tight w-[600px]  text-white text-[48px] ">
+                <h2 className=" leading-tight w-[600px] mb-8  text-white text-[48px] ">
                   Never a dull moment
                 </h2>
                 <p className="  w-[530px] text-white -mt-5 font-quicksand leading-normal text-[20px]">
@@ -138,7 +140,10 @@ const Home3 = () => {
                 </p>
               </div>
             </div>
-            <div id="line-between"></div>
+          </div>
+
+          <div className="relative bottom-[00px]">
+              <CaurosalElemHome2 />
           </div>
         </div>
       </div>

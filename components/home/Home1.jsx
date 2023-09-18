@@ -11,7 +11,7 @@ const Home1 = () => {
 
       <div className=" text-center mt-20 mb-20">
         <div className="">
-          <h2 className="  mx-28 leading-tight text-white text-[60px] ">
+          <h2 className=" mb-8 mx-28 leading-tight text-white text-[60px] ">
             LEARN HOW TO
             <span className=" text-yellow-300 text-stroke text-stroke-white">
               {" "}

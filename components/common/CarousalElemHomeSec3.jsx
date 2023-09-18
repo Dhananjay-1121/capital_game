@@ -25,7 +25,7 @@ const CarousalElemHomeSec3 = () => {
             clickable: true,
           }}
           // pagination={true}
-          // mousewheel={true}
+          mousewheel={true}
           keyboard={true}
           slidesPerView={1}
           // spaceBetween={60}

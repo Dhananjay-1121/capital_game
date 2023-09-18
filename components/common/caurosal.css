@@ -54,30 +54,11 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 
-/*   
-  .swiper-button-prev,
-  .swiper-button-next {
-    z-index:5;
-    background-color: #f7f7f7; 
-    color: white; 
-    font-size: 16px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-  } */
-
-/* Style the previous button */
 .carousel-button-prev {
     background-color: transparent;
     border: none;
   }
   
-  /* .carousel-button-prev:hover {
-
-  } */
-  
-  /* Style the next button */
   .carousel-button-next {
     background-color: transparent;
     border: none;
@@ -87,12 +68,12 @@
   /* In your caurosal.css file or inline style */
 .swiper-pagination-bullet {
     background-color: white; 
-    opacity: 0.7; /* Adjust opacity as needed */
-    width: 10px; /* Adjust width as needed */
-    height: 10px; /* Adjust height as needed */
-    margin: 0 10px; /* Adjust margin as needed */
-    border-radius: 50%; /* Create rounded pagination buttons */
-    cursor: pointer; /* Add a pointer cursor on hover */
+    opacity: 0.7; 
+    width: 10px; 
+    height: 10px; 
+    margin: 0 10px; 
+    border-radius: 50%; 
+    cursor: pointer; 
     
   }
   
@@ -108,7 +89,8 @@
     transform: translate3d(0, 0, 0);
     z-index: 10;
 }
-/* 
-.carousel-container{
-    margin: auto;
-} */
+
+
+
+
+

@@ -6,7 +6,7 @@ const Home2 = () => {
     <section className="home-sec2">
       <div className=" py-24">
         <div className=" text-center">
-          <h2 className="  mx-28 leading-tight text-white text-[50px] ">
+          <h2 className=" mb-8 mx-28 leading-tight text-white text-[50px] ">
             WHY
             <span className=" text-yellow-300 text-stroke text-stroke-white">
               {" "}
