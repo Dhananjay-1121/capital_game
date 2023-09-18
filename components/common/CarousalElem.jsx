@@ -25,7 +25,7 @@ const CarousalElem = () => {
             clickable: true,
           }}
           // pagination={true}
-          mousewheel={true}
+          // mousewheel={true}
           keyboard={true}
           slidesPerView={4}
           spaceBetween={30}

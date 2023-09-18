@@ -41,7 +41,7 @@ const Home3 = () => {
                 />
                 <div className="bg-gradient-to-bl from-[#069F67] rounded-l-xl rounded-r-xl to-[#33CB53] w-[350px] h-[205px] "></div>
                 <Image
-                  className="relative bottom-[350px] right-[75px] opacity-60"
+                  className="relative bottom-[350px] right-[75px] opacity-40"
                   src="/p.png"
                   height={520}
                   width={495}
@@ -54,14 +54,14 @@ const Home3 = () => {
             <div className="flex justify-between -mt-[610px]" id="two">
               <div className="ml-16 -mt-[200px]">
                 <Image
-                  className=" relative top-[226px] left-6 "
-                  src="/p1.png"
+                  className=" relative top-[226px] right-4 "
+                  src="/p2.png"
                   height={315}
-                  width={300}
+                  width={340}
                 />
-                <div className="bg-gradient-to-bl from-[#069F67] rounded-l-xl rounded-r-xl to-[#33CB53] w-[350px] h-[205px] "></div>
+                <div className="bg-gradient-to-bl from-[#FC6C64] rounded-l-xl rounded-r-xl to-[#E02961] w-[350px] h-[205px] "></div>
                 <Image
-                  className="relative bottom-[350px] right-[75px] opacity-60"
+                  className="relative bottom-[350px] right-[75px] opacity-40"
                   src="/p.png"
                   height={520}
                   width={495}
@@ -94,14 +94,14 @@ const Home3 = () => {
               </div>
               <div className="mr-16 -mt-[200px]">
                 <Image
-                  className=" relative top-[226px] left-6 "
-                  src="/p1.png"
+                  className=" relative top-[226px] left-12 "
+                  src="/p3.png"
                   height={315}
                   width={300}
                 />
                 <div className="bg-gradient-to-bl from-[#069F67] rounded-l-xl rounded-r-xl to-[#33CB53] w-[350px] h-[205px] "></div>
                 <Image
-                  className="relative bottom-[350px] right-[75px] opacity-60"
+                  className="relative bottom-[350px] right-[75px] opacity-40"
                   src="/p.png"
                   height={520}
                   width={495}
@@ -114,14 +114,14 @@ const Home3 = () => {
             <div className="flex justify-between -mt-[610px]" id="two">
               <div className="ml-16 -mt-[200px]">
                 <Image
-                  className=" relative top-[226px] left-6 "
-                  src="/p1.png"
+                  className=" relative top-[226px] left-4 "
+                  src="/p4.png"
                   height={315}
-                  width={300}
+                  width={320}
                 />
-                <div className="bg-gradient-to-bl from-[#069F67] rounded-l-xl rounded-r-xl to-[#33CB53] w-[350px] h-[205px] "></div>
+                <div className="bg-gradient-to-bl from-[#FC6C64] rounded-l-xl rounded-r-xl to-[#E02961] w-[350px] h-[205px] "></div>
                 <Image
-                  className="relative bottom-[350px] right-[75px] opacity-60"
+                  className="relative bottom-[350px] right-[75px] opacity-40"
                   src="/p.png"
                   height={520}
                   width={495}
