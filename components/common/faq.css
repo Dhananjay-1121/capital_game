@@ -49,7 +49,6 @@
 .rotate {
   transform: rotate(180deg);
   transition: transform 0.6s ease-in-out;
-
 }
 
 .answer-divider {

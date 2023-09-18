@@ -1,19 +1,60 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./caurosalhome2.css";
 
 const CaurosalElemHome2 = () => {
+    const [selectedButton, setSelectedButton] = useState("btn-1");
+
+    const handleButtonChange = (event) => {
+      setSelectedButton(event.target.id);
+    };
+
+    useEffect(() => {
+      document.getElementById('btn-1').click();    
+    }, [])
+    
+
   return (
-    <div className="slider mx-10">
-      <input type="radio" name="toggle" id="btn-1" defaultChecked />
-      <input type="radio" name="toggle" id="btn-2" />
-      <input type="radio" name="toggle" id="btn-3" />
+    <div className="slider mx-10">    
+      <input
+        type="radio"
+        name="toggle"
+        id="btn-1"
+        checked={selectedButton === "btn-1"}
+        onChange={handleButtonChange}
+      />
+      <input
+        type="radio"
+        name="toggle"
+        id="btn-2"
+        checked={selectedButton === "btn-2"}
+        onChange={handleButtonChange}
+      />
+      <input
+        type="radio"
+        name="toggle"
+        id="btn-3"
+        checked={selectedButton === "btn-3"}
+        onChange={handleButtonChange}
+      />
 
       <div className="slider-controls">
         <label htmlFor="btn-1"></label>
         <label htmlFor="btn-2"></label>
         <label htmlFor="btn-3"></label>
       </div>
+
+
+      {/* <input type="radio" name="toggle" id="btn-1"  />
+      <input type="radio" name="toggle" id="btn-2" checked />
+      <input type="radio" name="toggle" id="btn-3" />
+
+      <div className="slider-controls">
+        <label htmlFor="btn-1"></label>
+        <label htmlFor="btn-2"></label>
+        <label htmlFor="btn-3"></label>
+      </div> */}
 
       <ul className="slides">
         <li className="slide">
